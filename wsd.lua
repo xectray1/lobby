@@ -15,18 +15,33 @@ local Tabs = {
 
 local MainBox = Tabs.Main:AddLeftGroupbox("main")
 MainBox:AddButton("teleport to chapter 1", function()
+    queue_on_teleport[[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
+    ]]
     cloneref(game:GetService("TeleportService")):Teleport(14787381917, game.Players.LocalPlayer);
 end);
 MainBox:AddButton("teleport to chapter 2", function()
+    queue_on_teleport[[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
+    ]]
     cloneref(game:GetService("TeleportService")):Teleport(15322497988, game.Players.LocalPlayer);
 end);
 MainBox:AddButton("teleport to chapter 3", function()
+    queue_on_teleport[[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
+    ]]
     cloneref(game:GetService("TeleportService")):Teleport(16375066410, game.Players.LocalPlayer);
 end);
 MainBox:AddButton("teleport to chapter 4", function()
+    queue_on_teleport[[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
+    ]]
     cloneref(game:GetService("TeleportService")):Teleport(17619037026, game.Players.LocalPlayer);
 end);
-MainBox:AddButton("teleport to book 1 chapter 1", function()
+MainBox:AddButton("teleport to book 2 chapter 1", function()
+    queue_on_teleport[[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
+    ]]
     cloneref(game:GetService("TeleportService")):Teleport(14787369036, game.Players.LocalPlayer);
 end);
 local MenuGroup = Tabs['settings']:AddLeftGroupbox('ui')
