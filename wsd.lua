@@ -42,7 +42,7 @@ MainBox:AddButton("teleport to book 2 chapter 1", function()
     queue_on_teleport[[
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
     ]]
-    cloneref(game:GetService("TeleportService")):Teleport(14787369036, game.Players.LocalPlayer);
+    cloneref(game:GetService("TeleportService")):Teleport(71718624482170, game.Players.LocalPlayer);
 end);
 local MenuGroup = Tabs['settings']:AddLeftGroupbox('ui')
 MenuGroup:AddLabel('toggle ui'):AddKeyPicker("uitoggle", { Default = 'End', NoUI = true, Text = 'UI Bind' })
