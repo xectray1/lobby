@@ -23,18 +23,21 @@ end);
 MainBox:AddButton("teleport to chapter 2", function()
     queue_on_teleport[[
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
+    Library:Notify("chapter 2 not released sorry", 5);
     ]]
     cloneref(game:GetService("TeleportService")):Teleport(15322497988, game.Players.LocalPlayer);
 end);
 MainBox:AddButton("teleport to chapter 3", function()
     queue_on_teleport[[
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
+    Library:Notify("chapter 3 not released sory", 5);
     ]]
     cloneref(game:GetService("TeleportService")):Teleport(16375066410, game.Players.LocalPlayer);
 end);
 MainBox:AddButton("teleport to chapter 4", function()
     queue_on_teleport[[
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua"))()
+    Library:Notify("chapter 4 not released sory", 5);
     ]]
     cloneref(game:GetService("TeleportService")):Teleport(17619037026, game.Players.LocalPlayer);
 end);
